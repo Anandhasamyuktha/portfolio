@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Custom styles here */
+        /* Adjustments for smaller devices */
+        @media (max-width: 768px) {
+            .name-me {
+                font-size: 60px;
+            }
+            .name-me span {
+                font-size: 40px;
+            }
+            .anc {
+                font-size: 16px;
+            }
+            .b {
+                margin-left: 0;
+            }
+            .b-example-divider {
+                display: none;
+            }
+            .featurette-divider {
+                margin: 40px 0;
+            }
+            .sa-section {
+                height: auto;
+            }
+            .skill-content .row {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .col-md-6 {
+                margin-left: 0 !important;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a href="#about" class="anc nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#profile" class="anc nav-link">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#resume" class="anc nav-link">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills" class="anc nav-link">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projects" class="anc nav-link">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="anc nav-link">Contacts</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1 - Intro -->
+        <section class="position-relative overflow-hidden p-3 p-md-5 text-center bg-body-tertiary" style="background: linear-gradient(147deg, #4d4855 0%, #000000 74%);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mx-auto my-5">
+                        <img src="woman.jpg" style="border: solid black; border-radius: 50%;" data-aos="flip-up">
+                        <h1 class="name-me" data-aos="flip-left">Anandha <span style="font-family: Edwardian Script ITC;">S</span>amyuktha <span style="font-family: Edwardian Script ITC;">S</span> </h1>
+                        <h2 data-aos="flip-right" style="font-family: Edwardian Script ITC; color: white; font-size: 40px;">Web Developer</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2 - About -->
+        <section class="featurette" id="about" style="background-color: #C2FFD8; background-image: linear-gradient(135deg, #C2FFD8 10%, #465EFB 100%);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 order-md-1" style="margin-top: 100px;">
+                        <h1 class="text" style="font-size: 50px; margin-bottom: 50px;" data-aos="flip-right">About</h1>
+                        <p class="text" style="font-size: 18px;">As a full-stack developer, I possess exceptional problem-solving skills and excellent communication abilities, making me a valuable asset to any organization. With proficiency in multiple programming languages and frameworks, I excel in developing innovative solutions. My strong analytical skills enable me to tackle complex challenges effectively. Furthermore, my robust communication skills facilitate seamless collaboration and understanding, essential for successful project implementation. I also possess exceptional leadership qualities and have demonstrated my abilities during my schooling and college days.</p>
+                    </div>
+                    <div class="col-md-5 order-md-2" style="margin-top: 100px;">
+                        <img src="img6.jpg" width="360px" height="450px" style="margin-left: auto; margin-right: auto; display: block;" data-aos="zoom-in-down">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3 - Profile -->
+        <section class="featurette" id="profile" style="background-color: #000000; background-image: linear-gradient(147deg, #000000 0%, #434343 74%); color: white;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 order-md-2" style="color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-top: 50px;">
+                        <h1 data-aos="flip-right">MY PROFILE</h1>
+                        <p style="margin-top: 40px; font-size: 18px;">Ambitious computer science engineer pursuing third year, with a solid foundation in computer science principles, programming languages, and full-stack development skills. With a passion for problem-solving and a keen interest in emerging technologies.</p>
+                        <ul class="global-list" style="list-style-type: none; font-size: 18px; margin-top: 30px;">
+                            <li><span style="margin-right: 10px;"><i class="fas fa-user-alt"></i></span>Name: Anandha Samyuktha S</li>
+                            <li><span style="margin-right: 10px;"><i class="fas fa-calendar-alt"></i></span>Birthday: 23 August 2003</li>
+                            <li><span style="margin-right: 10px;"><i class="fas fa-user-alt"></i></span>Age: 20 Years</li>
+                            <li><span style="margin-right: 10px;"><i class="fas fa-envelope"></i></span>Email: samyukthasusresh2324@gmail.com</li>
+                            <li><span style="margin-right: 10px;"><i class="fas fa-phone-alt"></i></span>Phone: 9092512324</li>
+                            <li><span style="margin-right: 10px;"><i class="fas fa-graduation-cap"></i></span>Degree: Bachelors of Computer Science</li>
+                            <li><span style="margin-right: 10px;"><i class="fas fa-graduation-cap"></i></span>CGPA: 8.8</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <img src="profile.jpg" style="margin-left: auto; margin-right: auto; display: block; margin-top: 50px;" width="360px" height="450px" data-aos="flip-down">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4 - Resume -->
+        <section class="featurette" id="resume" style="background-image: linear-gradient(135deg, #a8edea 10%, #fed6e3 100%);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7" style="margin-top: 50px;">
+                        <h1 data-aos="flip-left">Resume</h1>
+                        <p style="margin-top: 40px; font-size: 18px;">I am well-versed in multiple programming languages including Java, Python, C++, and JavaScript. I have experience in web development with HTML, CSS, Bootstrap, and JavaScript frameworks such as React.js and Vue.js. Additionally, I am proficient in database management using SQL and MongoDB. I have successfully completed various projects that demonstrate my skills and problem-solving abilities. Furthermore, I am a quick learner with a passion for exploring new technologies and enhancing my knowledge.</p>
+                    </div>
+                    <div class="col-md-5" style="margin-top: 50px;">
+                        <img src="res1.jpg" style="margin-left: auto; margin-right: auto; display: block;" width="360px" height="450px" data-aos="zoom-out-right">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5 - Skills -->
+        <section class="featurette" id="skills" style="background-color: #C2FFD8; background-image: linear-gradient(135deg, #C2FFD8 10%, #465EFB 100%);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7" style="margin-top: 50px;">
+                        <h1 data-aos="flip-right">Skills</h1>
+                        <div class="skill-content">
+                            <div class="row">
+                                <div class="col-md-6" data-aos="zoom-out-up">
+                                    <h4 style="margin-top: 30px;">Technical Skills</h4>
+                                    <ul class="global-list" style="list-style-type: none; font-size: 18px; margin-top: 20px;">
+                                        <li>Java</li>
+                                        <li>Python</li>
+                                        <li>C++</li>
+                                        <li>JavaScript</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Bootstrap</li>
+                                        <li>React.js</li>
+                                        <li>Vue.js</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6" data-aos="zoom-out-down">
+                                    <h4 style="margin-top: 30px;">Soft Skills</h4>
+                                    <ul class="global-list" style="list-style-type: none; font-size: 18px; margin-top: 20px;">
+                                        <li>Problem-solving</li>
+                                        <li>Communication</li>
+                                        <li>Teamwork</li>
+                                        <li>Leadership</li>
+                                        <li>Time Management</li>
+                                        <li>Adaptability</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5" style="margin-top: 50px;">
+                        <img src="res1.jpg" style="margin-left: auto; margin-right: auto; display: block;" width="360px" height="450px" data-aos="zoom-in-down">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6 - Projects -->
+        <section class="featurette" id="projects" style="background-image: linear-gradient(135deg, #a8edea 10%, #fed6e3 100%);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7" style="margin-top: 50px;">
+                        <h1 data-aos="flip-right">Projects</h1>
+                        <p style="margin-top: 40px; font-size: 18px;">I have worked on several projects that showcase my skills in web development, software development, and database management. These projects include web applications, mobile applications, and data-driven solutions. Each project demonstrates my ability to solve real-world problems using technology effectively. I am passionate about creating innovative solutions and continuously improving my skills.</p>
+                    </div>
+                    <div class="col-md-5" style="margin-top: 50px;">
+                        <img src="res1.jpg" style="margin-left: auto; margin-right: auto; display: block;" width="360px" height="450px" data-aos="zoom-out-right">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 7 - Contact -->
+        <section class="featurette" id="contact" style="background-color: #C2FFD8; background-image: linear-gradient(135deg, #C2FFD8 10%, #465EFB 100%);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7" style="margin-top: 50px;">
+                        <h1 data-aos="flip-left">Contact</h1>
+                        <p style="margin-top: 40px; font-size: 18px;">Feel free to contact me if you have any questions or opportunities. I am open to collaboration, freelance projects, and new opportunities in the field of web development and software engineering. Connect with me via email or phone, and I will respond as soon as possible. Let's work together to create innovative solutions and make a difference.</p>
+                        <ul class="global-list" style="list-style-type: none; font-size: 18px; margin-top: 30px;">
+                            <li><span style="margin-right: 10px;"><i class="fas fa-envelope"></i></span>Email: samyukthasusresh2324@gmail.com</li>
+                            <li><span style="margin-right: 10px;"><i class="fas fa-phone-alt"></i></span>Phone: 9092512324</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5" style="margin-top: 50px;">
+                        <img src="res1.jpg" style="margin-left: auto; margin-right: auto; display: block;" width="360px" height="450px" data-aos="zoom-in-down">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-dark text-center text-white py-2">
+        <p>&copy; 2022 Anandha Samyuktha S. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-efl4E7mKcFg1uPxRLT1sHNdytfR5gAU+TP6nb6jlSfikr9l8JY7o1InW9j4+Wykr" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-7BI3P6eY4nHJvZc6FA6uL0h0O3BheDPwmFuN2oUpKJeUvBQVQ+2K9ZCPvzLm6v3T" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
